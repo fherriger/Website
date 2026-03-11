@@ -5,38 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fabian Herriger</title>
   <meta name="description" content="Fabian Herriger – Freier Journalist und Autor in Berlin.">
+  <link rel="icon" type="image/png" href="favicon.png">
   <style>
     body {
       margin: 0;
-      padding: 32px 20px;
       background: #ffffff;
       color: #111111;
       font-family: "Courier New", Courier, monospace;
       font-size: 18px;
-      line-height: 1.7;
+      line-height: 1.75;
     }
 
     .page {
       max-width: 760px;
       margin: 0 auto;
+      padding: 120px 28px 60px;
+    }
+
+    .block {
+      max-width: 520px;
+      margin: 0 auto;
     }
 
     h1, h2, p, ul {
-      margin: 0 0 18px;
+      margin: 0;
       font-weight: normal;
     }
 
     h1 {
-      font-size: 32px;
+      font-size: 30px;
+      margin-bottom: 18px;
+    }
+
+    .meta {
+      margin-bottom: 34px;
+      white-space: pre-line;
+    }
+
+    .contact {
+      margin-bottom: 42px;
+    }
+
+    .contact a {
+      color: #111111;
+      text-decoration: none;
+    }
+
+    .contact a span {
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
 
     h2 {
-      font-size: 20px;
-      margin-top: 36px;
+      font-size: 18px;
+      margin-bottom: 18px;
     }
 
-    .muted {
-      color: #444444;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 56px;
+    }
+
+    li {
+      margin-bottom: 18px;
+    }
+
+    .label {
+      display: inline-block;
+      width: 72px;
     }
 
     a {
@@ -49,88 +86,82 @@
       opacity: 0.7;
     }
 
-    .contact a {
-      text-decoration: none;
-    }
-
-    .contact a span {
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-
-    ul {
-      padding-left: 22px;
-    }
-
-    li {
-      margin-bottom: 18px;
-    }
-
-    .type {
-      display: inline-block;
-      min-width: 72px;
+    footer {
+      color: #555555;
+      font-size: 15px;
     }
 
     @media (max-width: 640px) {
       body {
         font-size: 16px;
-        padding: 24px 16px;
+      }
+
+      .page {
+        padding: 90px 20px 40px;
+      }
+
+      .block {
+        max-width: 100%;
       }
 
       h1 {
         font-size: 26px;
       }
 
-      h2 {
-        font-size: 18px;
+      .label {
+        display: block;
+        width: auto;
       }
 
-      .type {
-        display: block;
-        margin-bottom: 4px;
+      li {
+        margin-bottom: 22px;
       }
     }
   </style>
 </head>
 <body>
   <main class="page">
-    <h1>Fabian Herriger</h1>
+    <div class="block">
+      <h1>Fabian Herriger</h1>
 
-    <p class="muted">
-      Freier Journalist und Autor<br>
-      Berlin
-    </p>
+      <p class="meta">Freier Journalist und Autor
+Berlin</p>
 
-    <p class="contact">
-      <a href="mailto:post@fabianherriger.de" aria-label="E-Mail an Fabian Herriger senden">
-        ✉ <span>post@fabianherriger.de</span>
-      </a>
-    </p>
-
-    <h2>Arbeiten</h2>
-
-    <ul>
-      <li>
-        <span class="type">Film</span>
-        <a href="https://www.arte.tv/de/videos/115519-014-A/was-macht-uns-depressiv/" target="_blank" rel="noopener noreferrer">
-          Was macht uns depressiv?
+      <p class="contact">
+        <a href="mailto:post@fabianherriger.de" aria-label="E-Mail an Fabian Herriger senden">
+          ✉ <span>post@fabianherriger.de</span>
         </a>
-      </li>
+      </p>
 
-      <li>
-        <span class="type">Text</span>
-        <a href="https://www.vice.com/de/article/ich-sass-24-stunden-in-einer-eckkneipe/" target="_blank" rel="noopener noreferrer">
-          Ich saß 24 Stunden in einer Eckkneipe
-        </a>
-      </li>
+      <h2>Arbeiten</h2>
 
-      <li>
-        <span class="type">Buch</span>
-        <a href="https://www.thegentletemper.com/products/take-me-to-the-lakes-bicycle-edition-berlin?srsltid=AfmBOoqwytWbnMR203fCZz-iq1nt21f_D-rpcOfo3T3zrmktbE-IKqTo" target="_blank" rel="noopener noreferrer">
-          Take Me to the Lakes – Bicycle Edition Berlin
-        </a>
-      </li>
-    </ul>
+      <ul>
+        <li>
+          <span class="label">Film</span>
+          <a href="https://www.arte.tv/de/videos/115519-014-A/was-macht-uns-depressiv/" target="_blank" rel="noopener noreferrer">
+            Was macht uns depressiv?
+          </a>
+        </li>
+
+        <li>
+          <span class="label">Text</span>
+          <a href="https://www.vice.com/de/article/ich-sass-24-stunden-in-einer-eckkneipe/" target="_blank" rel="noopener noreferrer">
+            Ich saß 24 Stunden in einer Eckkneipe
+          </a>
+        </li>
+
+        <li>
+          <span class="label">Buch</span>
+          <a href="https://www.thegentletemper.com/products/take-me-to-the-lakes-bicycle-edition-berlin?srsltid=AfmBOoqwytWbnMR203fCZz-iq1nt21f_D-rpcOfo3T3zrmktbE-IKqTo" target="_blank" rel="noopener noreferrer">
+            Take Me to the Lakes — Bicycle Edition Berlin
+          </a>
+        </li>
+      </ul>
+
+      <footer>
+        © Fabian Herriger
+      </footer>
+    </div>
   </main>
 </body>
 </html>
